@@ -5,16 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <script>
-    
-for (let i = 1; i <= 100; i++) {
-    if (i % 2 !== 0) {
-        document.write(i);
+    let numbers = [];
+
+    for (let i = 1; i <= 100; i++ ) {
+      if (i % 2 !== 0) {
+        numbers.push(i);
+      }
     }
-}
+
+    document.write(numbers.join(','))
   </script>
 </head>
 <body>
         
 </body>
 </html>
-
